@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="0" height="0" style="position:absolute">
+	
+		<symbol id="icon-arrow-down" viewBox="0 0 14 15">
+			<path d="M1.43 5.57l1.14-1.14L7 8.87l4.43-4.44 1.14 1.14L7 11.13 1.43 5.57z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-first-page" viewBox="0 0 12 10">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M5.293.293l1.414 1.414L3.414 5l3.293 3.293-1.414 1.414L.586 5 5.293.293z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M10.293.293l1.414 1.414L8.414 5l3.293 3.293-1.414 1.414L5.586 5 10.293.293z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-last-page" viewBox="0 0 12 10">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M6.828.293L5.414 1.707 8.707 5 5.414 8.293l1.414 1.414L11.535 5 6.828.293z"></path><path fill-rule="evenodd" clip-rule="evenodd" d="M1.828.293L.414 1.707 3.707 5 .414 8.293l1.414 1.414L6.535 5 1.828.293z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-left" viewBox="0 0 39 22">
+			<path d="M.74 10.5h38v1h-38v-1z"></path><path d="M11.4.63l.68.74L1.48 11l10.6 9.63-.67.74L0 11 11.4.63z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-next-page" viewBox="0 0 7 10">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M1.414.293L0 1.707 3.293 5 0 8.293l1.414 1.414L6.121 5 1.414.293z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-prev-page" viewBox="0 0 7 10">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M5.414.293l1.414 1.414L3.535 5l3.293 3.293-1.414 1.414L.707 5 5.414.293z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-right" viewBox="0 0 39 22">
+			<path d="M38 11.5H0v-1h38v1z"></path><path d="M27.34 21.37l-.68-.74L37.26 11l-10.6-9.63.68-.74L38.74 11l-11.4 10.37z"></path>
+		</symbol>
+	
+		<symbol id="icon-arrow-up" viewBox="0 0 10 6">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.4l-.556.6L5 1.202.556 6 0 5.4 5 0l5 5.4z"></path>
+		</symbol>
+	
+		<symbol id="icon-close" viewBox="0 0 16 16">
+			<path fill-rule="evenodd" clip-rule="evenodd" d="M8 9.414l-4.293 4.293-1.414-1.414L6.586 8 2.293 3.707l1.414-1.414L8 6.586l4.293-4.293 1.414 1.414L9.414 8l4.293 4.293-1.414 1.414L8 9.414z"></path>
+		</symbol>
+	
+		<symbol id="icon-facebook" viewBox="0 0 24 24">
+			<path d="M24 12.07C24 5.4 18.63 0 12 0S0 5.4 0 12.07C0 18.1 4.39 23.1 10.13 24v-8.44H7.08v-3.49h3.04V9.41c0-3.02 1.8-4.7 4.54-4.7 1.31 0 2.68.24 2.68.24v2.97h-1.51c-1.5 0-1.96.93-1.96 1.89v2.26h3.33l-.53 3.5h-2.8V24C19.62 23.1 24 18.1 24 12.07z"></path>
+		</symbol>
+	
+		<symbol id="icon-instagram" viewBox="0 0 24 24">
+			<path d="M17.3 0H6.7C3 0 0 3 0 6.8v10.5C0 21 3 24 6.8 24h10.4c3.8 0 6.8-3 6.8-6.8V6.8C24 3 21 0 17.2 0zM12 7.5c2.5 0 4.5 2 4.5 4.5s-2 4.5-4.5 4.5-4.5-2-4.5-4.5 2-4.5 4.5-4.5zm4.5-2.3c0-.8.7-1.5 1.5-1.5s1.5.7 1.5 1.5c0 .9-.7 1.5-1.5 1.5s-1.5-.6-1.5-1.5z"></path>
+		</symbol>
+	
+		<symbol id="icon-load" viewBox="0 0 20 17">
+			<path d="M19.427 8.288c-.318 0-.573.233-.573.525v4.78c0 1.301-1.154 2.356-2.568 2.356H3.714c-1.418 0-2.568-1.059-2.568-2.355V8.736c0-.292-.255-.526-.573-.526-.318 0-.573.234-.573.526v4.858C0 15.474 1.668 17 3.714 17h12.572C18.336 17 20 15.47 20 13.594v-4.78c0-.289-.255-.526-.573-.526z"></path><path d="M9.597 12.827a.604.604 0 0 0 .806 0l3.642-3.34a.494.494 0 0 0 0-.744.608.608 0 0 0-.81 0l-2.662 2.445V.526C10.573.234 10.318 0 10 0c-.318 0-.573.234-.573.526v10.662L6.761 8.743a.608.608 0 0 0-.81 0 .494.494 0 0 0 0 .744l3.646 3.34z"></path>
+		</symbol>
+	
+		<symbol id="icon-marker" viewBox="0 0 14 14">
+			<path fill-rule="evenodd" d="M7 13.5c3-2 5-5.2 5-8a5 5 0 0 0-10 0c0 2.8 2 6 5 8zm0-6a2 2 0 1 0 0-4 2 2 0 0 0 0 4z"></path>
+		</symbol>
+	
+		<symbol id="icon-phone" viewBox="0 0 14 14">
+			<path d="M6.4 3.65c.35.38.24.81-.06 1.22a3.18 3.18 0 0 1-.42.46l-.45.45c-.06.05.34.85 1.12 1.63.77.77 1.57 1.17 1.63 1.12l.45-.45c.24-.25.37-.37.55-.48.37-.25.78-.31 1.12 0 1.12.8 1.75 1.28 2.06 1.6.6.63.53 1.6 0 2.15-.18.19-.4.42-.68.68-1.63 1.64-5.1.64-7.74-2.01C1.33 7.37.33 3.9 1.97 2.27l.67-.67c.54-.53 1.55-.6 2.16 0 .32.32.84.98 1.6 2.05z"></path>
+		</symbol>
+	
+</svg>
