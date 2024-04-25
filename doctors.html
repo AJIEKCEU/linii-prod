@@ -305,50 +305,144 @@
             </div>
         </div>
     </header>
-    <style>
-        .temp-menu {
-            max-width: 700px;
-            margin-left: auto;
-            margin-right: auto;
-            padding-top: 150px;
-        }
-        .temp-menu__item {
-            margin-bottom: 15px;
-        }
-        .temp-menu__link {
-            font-size: 20px;
-        }
-    </style>
+    <div class="main-top">
+        <picture class="main-top__media">
+            <source srcset="local/templates/main/images/temp/img960x635_1.webp, local/templates/main/images/temp/img960x635_1@2x.webp 2x" type="image/webp">
+            <img class="main-top__img" width="960" height="635" src="local/templates/main/images/temp/img960x635_1.jpg" srcset="local/templates/main/images/temp/img960x635_1@2x.jpg 2x"
+                 alt="Восстановление роста волос">
+        </picture>
+        <div class="main-top-info main-top__info">
+            <div class="main-top-info__body">
+                <div class="breadcrumb">
+                    <a class="breadcrumb__link" href="/">
+                        <span class="breadcrumb__caption">Главная</span>
+                    </a>
+                    <svg class="icon breadcrumb__sep"><use href="local/templates/main/images/sprite.svg#icon-sep"/></svg>
+                    <span class="breadcrumb__caption">Наши врачи</span>
+                </div>
+                <div class="main-top-info__text">
+                    <h1>Наши врачи</h1>
+                    <div class="main-top-info__content">
+                        <p>Эффективный и безболезненный аппаратный ультразвуковой SMAS-лифтинг на Doublo NEW 2.0 + RF
+                            термолифинг в одной процедуре. Данная методика омоложения кожи применяется как в зоне лица, так
+                            и по всему телу.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="main__container main__body">
-        <ul class="temp-menu">
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="main.html">Главная</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="certificate.html">Сертификаты</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="feedback.html">Отзывы</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="sale-inner.html">Распродажа внутренняя</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="news-inner.html">Новости внутренняя</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="equipment.html">Оборудование</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="equipment-inner.html">Оборудование внутренняя </a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="doctors.html">Наши врачи</a>
-            </li>
-            <li class="temp-menu__item">
-                <a class="temp-menu__link" href="doctor.html">Карточка врача</a>
-            </li>
-        </ul>
+        <div class="form">
+            <form class="filter">
+                <div class="filter__item">
+                    <label class="form__label">Направления</label>
+                    <select class="js-select-no-search js-select-certificate">
+                        <option>Все направления</option>
+                        <option>Хирург</option>
+                        <option>Травматолог</option>
+                        <option>Терапевт</option>
+                    </select>
+                </div>
+                <div class="filter__item">
+                    <label class="form__label">Клиника</label>
+                    <select class="js-select-no-search js-select-certificate">
+                        <option>Все клиники</option>
+                        <option>пр. Держинского, 123</option>
+                        <option>пр. Держинского, 2</option>
+                    </select>
+                </div>
+            </form>
+        </div>
+        <div class="section">
+            <ul class="doctors">
+                
+                    <li class="doctors__item">
+                        <div class="doctors__body">
+                            <a class="doctors__media" href="#">
+                                <picture>
+                                    <source srcset="local/templates/main/images/temp/img394x231.webp, local/templates/main/images/temp/img394x231@2x.webp 2x"
+                                            type="image/webp">
+                                    <img class="doctors__img" width="426" height="334" src="local/templates/main/images/temp/img394x231.jpg"
+                                         srcset="local/templates/main/images/temp/img394x231@2x.jpg 2x" alt="Долбунова Татьяна Трофимовна">
+                                </picture>
+                            </a>
+                            <div class="doctors__info">
+                                <a class="h3 doctors__title" href="#">
+                                    Долбунова Татьяна Трофимовна
+                                </a>
+                                <p class="doctors__text">Пластический хирург / Врач первой категории</p>
+                                <hr class="doctors__sep">
+                                <p class="doctors__text">Опыт работы 14 лет</p>
+                            </div>
+                            
+                                <a class="video-presentation" href="#">
+                                    <picture class="video-presentation__picture">
+                                        <img class="video-presentation__img" src="local/templates/main/images/temp/img90x52.png" alt="">
+                                        <svg class="icon icon--size-xxl video-presentation__icon"><use href="local/templates/main/images/sprite.svg#icon-play"/></svg>
+                                    </picture>
+                                    <span class="video-presentation__text">Видео-презентация врача</span>
+                                </a>
+                            
+                        </div>
+                        <a class="btn btn--block btn--size-m btn--theme-dark doctors__btn" href="#">Записаться на прием</a>
+                    </li>
+                
+                    <li class="doctors__item">
+                        <div class="doctors__body">
+                            <a class="doctors__media" href="#">
+                                <picture>
+                                    <source srcset="local/templates/main/images/temp/img394x231.webp, local/templates/main/images/temp/img394x231@2x.webp 2x"
+                                            type="image/webp">
+                                    <img class="doctors__img" width="426" height="334" src="local/templates/main/images/temp/img394x231.jpg"
+                                         srcset="local/templates/main/images/temp/img394x231@2x.jpg 2x" alt="Долбунова Татьяна Трофимовна">
+                                </picture>
+                            </a>
+                            <div class="doctors__info">
+                                <a class="h3 doctors__title" href="#">
+                                    Долбунова Татьяна Трофимовна
+                                </a>
+                                <p class="doctors__text">Пластический хирург / Врач первой категории</p>
+                                <hr class="doctors__sep">
+                                <p class="doctors__text">Опыт работы 14 лет</p>
+                            </div>
+                            
+                        </div>
+                        <a class="btn btn--block btn--size-m btn--theme-dark doctors__btn" href="#">Записаться на прием</a>
+                    </li>
+                
+                    <li class="doctors__item">
+                        <div class="doctors__body">
+                            <a class="doctors__media" href="#">
+                                <picture>
+                                    <source srcset="local/templates/main/images/temp/img394x231.webp, local/templates/main/images/temp/img394x231@2x.webp 2x"
+                                            type="image/webp">
+                                    <img class="doctors__img" width="426" height="334" src="local/templates/main/images/temp/img394x231.jpg"
+                                         srcset="local/templates/main/images/temp/img394x231@2x.jpg 2x" alt="Долбунова Татьяна Трофимовна">
+                                </picture>
+                            </a>
+                            <div class="doctors__info">
+                                <a class="h3 doctors__title" href="#">
+                                    Долбунова Татьяна Трофимовна
+                                </a>
+                                <p class="doctors__text">Пластический хирург / Врач первой категории</p>
+                                <hr class="doctors__sep">
+                                <p class="doctors__text">Опыт работы 14 лет</p>
+                            </div>
+                            
+                                <a class="video-presentation" href="#">
+                                    <picture class="video-presentation__picture">
+                                        <img class="video-presentation__img" src="local/templates/main/images/temp/img90x52.png" alt="">
+                                        <svg class="icon icon--size-xxl video-presentation__icon"><use href="local/templates/main/images/sprite.svg#icon-play"/></svg>
+                                    </picture>
+                                    <span class="video-presentation__text">Видео-презентация врача</span>
+                                </a>
+                            
+                        </div>
+                        <a class="btn btn--block btn--size-m btn--theme-dark doctors__btn" href="#">Записаться на прием</a>
+                    </li>
+                
+            </ul>
+        </div>
     </div>
     <footer class="footer">
         <div class="footer__top">
