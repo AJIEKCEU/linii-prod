@@ -25,11 +25,11 @@
 		</symbol>
 	
 		<symbol id="icon-arrow-right" viewBox="0 0 39 22">
-			<path d="M38 11.5H0v-1h38v1z"></path><path d="M27.34 21.37l-.68-.74L37.26 11l-10.6-9.63.68-.74L38.74 11l-11.4 10.37z"></path>
+			<g clip-path="url(#a)"><path d="M38.26 11.5h-38v-1h38v1z"></path><path d="M27.6 21.37l-.68-.74L37.52 11l-10.6-9.63.67-.74L39 11 27.6 21.37z"></path></g><defs><clipPath id="a"><path transform="rotate(-180 19.5 11)" d="M0 0h39v22H0z"></path></clipPath></defs>
 		</symbol>
 	
-		<symbol id="icon-arrow-up" viewBox="0 0 10 6">
-			<path fill-rule="evenodd" clip-rule="evenodd" d="M10 5.4l-.556.6L5 1.202.556 6 0 5.4 5 0l5 5.4z"></path>
+		<symbol id="icon-arrow-up" viewBox="0 0 14 15">
+			<path d="M12.57 9.43l-1.14 1.14L7 6.13l-4.43 4.44-1.14-1.14L7 3.87l5.57 5.56z"></path>
 		</symbol>
 	
 		<symbol id="icon-circle-checked" viewBox="0 0 25 24">
