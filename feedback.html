@@ -323,7 +323,52 @@
                     <h1>Отзывы</h1>
                     <div class="main-top-info__content">
                         <p>Эффективный и безболезненный аппаратный ультразвуковой SMAS-лифтинг на Doublo NEW 2.0 + RF термолифинг в одной процедуре. Данная методика омоложения кожи применяется как в зоне лица, так и по всему телу.</p>
-                        <a class="btn btn--theme-light btn--size-m main-top-info__btn" href="#">Оставить отзыв</a>
+                        <a class="btn btn--theme-light btn--size-m main-top-info__btn js-modal-link" href="#modal-feedback">Оставить отзыв</a>
+                        <div id="modal-feedback" class="modal modal--hide">
+                            <div class="modal__inner">
+                                <button class="modal__close" type="button" data-fancybox-close>
+                                    <svg class="icon icon--size-xl modal__icon">
+                                        <use href="local/templates/main/images/sprite.svg#icon-close"/>
+                                    </svg>
+                                </button>
+                                <h3 class="modal__title">Оставить отзыв</h3>
+                                <div class="form">
+                                    <form>
+                                        <div class="form__field-row">
+                                            <label class="form__label">Имя</label>
+                                            <input class="form__field chk" type="text" placeholder="Введите ваше имя">
+                                        </div>
+                                        <div class="form__field-row">
+                                            <label class="form__label">Телефон</label>
+                                            <input class="form__field js-phone-mask chk" type="tel" placeholder="Введите ваш телефон">
+                                        </div>
+                                        <div class="form__field-row">
+                                            <label class="form__label">Instagram</label>
+                                            <input class="form__field js-phone-mask chk" type="text" placeholder="Введите ваш Instagram">
+                                        </div>
+                                        <div class="form__field-row">
+                                            <label class="form__label">На что оставляете отзыв</label>
+                                            <input class="form__field js-phone-mask chk" type="text" placeholder="Специалист или услуга">
+                                        </div>
+                                        <div class="form__field-row">
+                                            <label class="form__label">Оценка</label>
+                                            <select class="barrating">
+                                                <option value="1">1</option>
+                                                <option value="2">2</option>
+                                                <option value="3">3</option>
+                                                <option value="4">4</option>
+                                                <option value="5">5</option>
+                                            </select>
+                                        </div>
+                                        <div class="form__field-row">
+                                            <label class="form__label">Ваш отзыв</label>
+                                            <textarea class="form__textarea" placeholder="Текст отзыва"></textarea>
+                                        </div>
+                                        <button class="btn btn--size-m btn--theme-dark btn--block" type="submit">Отправить</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
